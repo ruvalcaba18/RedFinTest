@@ -8,16 +8,24 @@
 import UIKit
 
 class CustomTableViewCell: UITableViewCell {
-
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    
+    static let identifier = "CustomTableViewCell"
+    
+    @IBOutlet var subtitleHeader: NSLayoutConstraint!
+    @IBOutlet weak var hourLabel: UILabel!
+    @IBOutlet weak var descriptionLabel: UILabel!
+    @IBOutlet weak var subTitleLabel: UILabel!
+    @IBOutlet weak var titleLabel: UILabel!
+    
+    override init(style: UITableViewCell.CellStyle, reuseIdentifier: String?) {
+        super.init(style: style, reuseIdentifier: reuseIdentifier)
+        self.fromNib()
+    }
+    
+    required init?(coder: NSCoder) {
+        super.init(coder: coder)
     }
 
-    override func setSelected(_ selected: Bool, animated: Bool) {
-        super.setSelected(selected, animated: animated)
 
-        // Configure the view for the selected state
-    }
     
 }

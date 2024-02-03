@@ -1,0 +1,9 @@
+
+For this application, I initially chose the VIPER architecture, which, in hindsight, added complexity to the development process. While VIPER provides clear separation of concerns, it can be time-consuming. In a real production scenario, considering time constraints, MVC might have been a more pragmatic choice, allowing for faster development.
+
+I incorporated unit tests into the Interactor to ensure its functionality. The API redirection issue, where the provided API redirected to another JSON without crucial information, posed a challenge. I addressed this by providing screenshots in the absence of complete data.
+
+If building upon this for a full-scale production application, I would reconsider the architectural choice, perhaps leaning towards a more lightweight approach like MVVM. Additionally, moving to SwiftUI could significantly expedite development, given its declarative nature. Overall, the lessons learned here emphasize the importance of balancing architectural elegance with practicality and adapting to the constraints of external data sources.
+
+
+Another aspect I would improve is the simplicity and descriptiveness of the API. Some of the keys, like "dayofweekstr" or "dayorder," lack clarity and might benefit from more intuitive naming. A more descriptive API would enhance the developer experience and make it easier to understand the purpose of each key without needing additional documentation. Clear and self-explanatory keys contribute to better code readability and reduce the learning curve for developers interacting with the API.

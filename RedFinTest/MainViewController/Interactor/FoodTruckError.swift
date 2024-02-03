@@ -6,3 +6,9 @@
 //
 
 import Foundation
+public enum FoodTruckError: Error {
+    case invalidURL
+    case noData
+    case decodingError(DecodingError)
+    case other(Error)
+}

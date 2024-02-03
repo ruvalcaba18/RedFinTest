@@ -6,3 +6,15 @@
 //
 
 import Foundation
+
+extension String {
+    func toHour() -> Int? {
+        let components = self.components(separatedBy: ":")
+        if components.count == 2,
+           let hour = Int(components[0]) {
+            return hour
+        } else {
+            return nil
+        }
+    }
+}

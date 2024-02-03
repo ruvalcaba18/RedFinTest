@@ -9,13 +9,34 @@
 /* Begin PBXBuildFile section */
 		187E41382B6D644200D409FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E41372B6D644200D409FF /* AppDelegate.swift */; };
 		187E413A2B6D644200D409FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E41392B6D644200D409FF /* SceneDelegate.swift */; };
-		187E413C2B6D644200D409FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E413B2B6D644200D409FF /* ViewController.swift */; };
+		187E413C2B6D644200D409FF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E413B2B6D644200D409FF /* MainViewController.swift */; };
 		187E413F2B6D644200D409FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187E413D2B6D644200D409FF /* Main.storyboard */; };
 		187E41412B6D644200D409FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187E41402B6D644200D409FF /* Assets.xcassets */; };
 		187E41442B6D644200D409FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187E41422B6D644200D409FF /* LaunchScreen.storyboard */; };
-		187E414F2B6D644200D409FF /* RedFinTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E414E2B6D644200D409FF /* RedFinTestTests.swift */; };
+		187E414F2B6D644200D409FF /* MainInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E414E2B6D644200D409FF /* MainInteractorTests.swift */; };
 		187E41592B6D644200D409FF /* RedFinTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E41582B6D644200D409FF /* RedFinTestUITests.swift */; };
 		187E415B2B6D644200D409FF /* RedFinTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E415A2B6D644200D409FF /* RedFinTestUITestsLaunchTests.swift */; };
+		187E416A2B6D648A00D409FF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E41682B6D648A00D409FF /* MapViewController.swift */; };
+		187E416B2B6D648A00D409FF /* MapViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187E41692B6D648A00D409FF /* MapViewController.xib */; };
+		187E41742B6D687600D409FF /* MainViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E41732B6D687600D409FF /* MainViewProtocols.swift */; };
+		187E417D2B6D6A0F00D409FF /* MainViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E417C2B6D6A0F00D409FF /* MainViewInteractor.swift */; };
+		187E417F2B6D6A1900D409FF /* MainViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E417E2B6D6A1900D409FF /* MainViewPresenter.swift */; };
+		187E41822B6D6A2700D409FF /* MainViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E41812B6D6A2700D409FF /* MainViewRouter.swift */; };
+		187E41852B6D6A3B00D409FF /* MapViewProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E41842B6D6A3B00D409FF /* MapViewProtocols.swift */; };
+		187E41872B6D6A4B00D409FF /* MapViewInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E41862B6D6A4B00D409FF /* MapViewInteractor.swift */; };
+		187E41892B6D6A5500D409FF /* MapViewPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E41882B6D6A5500D409FF /* MapViewPresenter.swift */; };
+		187E418B2B6D6A5F00D409FF /* MapViewRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E418A2B6D6A5F00D409FF /* MapViewRouter.swift */; };
+		187E418D2B6D705000D409FF /* FoodTruckModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E418C2B6D705000D409FF /* FoodTruckModel.swift */; };
+		187E41902B6D770900D409FF /* FoodTruckViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E418E2B6D770900D409FF /* FoodTruckViewController.swift */; };
+		187E41912B6D770900D409FF /* FoodTruckViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187E418F2B6D770900D409FF /* FoodTruckViewController.xib */; };
+		187E41952B6D7D4F00D409FF /* CustomTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E41932B6D7D4F00D409FF /* CustomTableViewCell.swift */; };
+		187E41962B6D7D4F00D409FF /* CustomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 187E41942B6D7D4F00D409FF /* CustomTableViewCell.xib */; };
+		187E41992B6D939C00D409FF /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E41982B6D939C00D409FF /* ViewExtension.swift */; };
+		187E419F2B6DB7B300D409FF /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E419E2B6DB7B300D409FF /* StringExtension.swift */; };
+		187E41A12B6DB7D000D409FF /* DateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E41A02B6DB7D000D409FF /* DateExtension.swift */; };
+		187E41A32B6DF97900D409FF /* FoodTruckError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E41A22B6DF97900D409FF /* FoodTruckError.swift */; };
+		187E41A92B6E08D300D409FF /* CustomMKAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187E41A82B6E08D300D409FF /* CustomMKAnnotation.swift */; };
+		18B6451B2B6E150400F57F3D /* ExplanationOfProject in Resources */ = {isa = PBXBuildFile; fileRef = 18B6451A2B6E150400F57F3D /* ExplanationOfProject */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,16 +60,37 @@
 		187E41342B6D644200D409FF /* RedFinTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RedFinTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187E41372B6D644200D409FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		187E41392B6D644200D409FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		187E413B2B6D644200D409FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		187E413B2B6D644200D409FF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		187E413E2B6D644200D409FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		187E41402B6D644200D409FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		187E41432B6D644200D409FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		187E41452B6D644200D409FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		187E414A2B6D644200D409FF /* RedFinTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedFinTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		187E414E2B6D644200D409FF /* RedFinTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedFinTestTests.swift; sourceTree = "<group>"; };
+		187E414E2B6D644200D409FF /* MainInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainInteractorTests.swift; sourceTree = "<group>"; };
 		187E41542B6D644200D409FF /* RedFinTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RedFinTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		187E41582B6D644200D409FF /* RedFinTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedFinTestUITests.swift; sourceTree = "<group>"; };
 		187E415A2B6D644200D409FF /* RedFinTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RedFinTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		187E41682B6D648A00D409FF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		187E41692B6D648A00D409FF /* MapViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MapViewController.xib; sourceTree = "<group>"; };
+		187E41732B6D687600D409FF /* MainViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewProtocols.swift; sourceTree = "<group>"; };
+		187E417C2B6D6A0F00D409FF /* MainViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewInteractor.swift; sourceTree = "<group>"; };
+		187E417E2B6D6A1900D409FF /* MainViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewPresenter.swift; sourceTree = "<group>"; };
+		187E41812B6D6A2700D409FF /* MainViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewRouter.swift; sourceTree = "<group>"; };
+		187E41842B6D6A3B00D409FF /* MapViewProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewProtocols.swift; sourceTree = "<group>"; };
+		187E41862B6D6A4B00D409FF /* MapViewInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewInteractor.swift; sourceTree = "<group>"; };
+		187E41882B6D6A5500D409FF /* MapViewPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewPresenter.swift; sourceTree = "<group>"; };
+		187E418A2B6D6A5F00D409FF /* MapViewRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewRouter.swift; sourceTree = "<group>"; };
+		187E418C2B6D705000D409FF /* FoodTruckModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckModel.swift; sourceTree = "<group>"; };
+		187E418E2B6D770900D409FF /* FoodTruckViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckViewController.swift; sourceTree = "<group>"; };
+		187E418F2B6D770900D409FF /* FoodTruckViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = FoodTruckViewController.xib; sourceTree = "<group>"; };
+		187E41932B6D7D4F00D409FF /* CustomTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTableViewCell.swift; sourceTree = "<group>"; };
+		187E41942B6D7D4F00D409FF /* CustomTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomTableViewCell.xib; sourceTree = "<group>"; };
+		187E41982B6D939C00D409FF /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		187E419E2B6DB7B300D409FF /* StringExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtension.swift; sourceTree = "<group>"; };
+		187E41A02B6DB7D000D409FF /* DateExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DateExtension.swift; sourceTree = "<group>"; };
+		187E41A22B6DF97900D409FF /* FoodTruckError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodTruckError.swift; sourceTree = "<group>"; };
+		187E41A82B6E08D300D409FF /* CustomMKAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomMKAnnotation.swift; sourceTree = "<group>"; };
+		18B6451A2B6E150400F57F3D /* ExplanationOfProject */ = {isa = PBXFileReference; lastKnownFileType = text; path = ExplanationOfProject; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,10 +141,14 @@
 		187E41362B6D644200D409FF /* RedFinTest */ = {
 			isa = PBXGroup;
 			children = (
+				18B6451A2B6E150400F57F3D /* ExplanationOfProject */,
+				187E417B2B6D68AE00D409FF /* Utils */,
 				187E41372B6D644200D409FF /* AppDelegate.swift */,
 				187E41392B6D644200D409FF /* SceneDelegate.swift */,
-				187E413B2B6D644200D409FF /* ViewController.swift */,
 				187E413D2B6D644200D409FF /* Main.storyboard */,
+				187E413B2B6D644200D409FF /* MainViewController.swift */,
+				187E416C2B6D64DA00D409FF /* MainViewController */,
+				187E41672B6D647700D409FF /* MapView */,
 				187E41402B6D644200D409FF /* Assets.xcassets */,
 				187E41422B6D644200D409FF /* LaunchScreen.storyboard */,
 				187E41452B6D644200D409FF /* Info.plist */,
@@ -113,7 +159,7 @@
 		187E414D2B6D644200D409FF /* RedFinTestTests */ = {
 			isa = PBXGroup;
 			children = (
-				187E414E2B6D644200D409FF /* RedFinTestTests.swift */,
+				187E414E2B6D644200D409FF /* MainInteractorTests.swift */,
 			);
 			path = RedFinTestTests;
 			sourceTree = "<group>";
@@ -125,6 +171,159 @@
 				187E415A2B6D644200D409FF /* RedFinTestUITestsLaunchTests.swift */,
 			);
 			path = RedFinTestUITests;
+			sourceTree = "<group>";
+		};
+		187E41672B6D647700D409FF /* MapView */ = {
+			isa = PBXGroup;
+			children = (
+				187E417A2B6D68A100D409FF /* Protocols */,
+				187E41792B6D689C00D409FF /* View */,
+				187E41782B6D689700D409FF /* Interactor */,
+				187E41772B6D689100D409FF /* Presenter */,
+				187E41762B6D688C00D409FF /* Entity */,
+				187E41752B6D688700D409FF /* Router */,
+			);
+			path = MapView;
+			sourceTree = "<group>";
+		};
+		187E416C2B6D64DA00D409FF /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				187E416D2B6D684600D409FF /* Protocols */,
+				187E416E2B6D684E00D409FF /* View */,
+				187E416F2B6D685200D409FF /* Interactor */,
+				187E41702B6D685A00D409FF /* Presenter */,
+				187E41712B6D686100D409FF /* Entity */,
+				187E41722B6D686700D409FF /* Router */,
+			);
+			path = MainViewController;
+			sourceTree = "<group>";
+		};
+		187E416D2B6D684600D409FF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				187E41732B6D687600D409FF /* MainViewProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		187E416E2B6D684E00D409FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				187E418E2B6D770900D409FF /* FoodTruckViewController.swift */,
+				187E418F2B6D770900D409FF /* FoodTruckViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		187E416F2B6D685200D409FF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				187E417C2B6D6A0F00D409FF /* MainViewInteractor.swift */,
+				187E41A22B6DF97900D409FF /* FoodTruckError.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		187E41702B6D685A00D409FF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				187E417E2B6D6A1900D409FF /* MainViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		187E41712B6D686100D409FF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				187E418C2B6D705000D409FF /* FoodTruckModel.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		187E41722B6D686700D409FF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				187E41812B6D6A2700D409FF /* MainViewRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		187E41752B6D688700D409FF /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				187E418A2B6D6A5F00D409FF /* MapViewRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		187E41762B6D688C00D409FF /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				187E41A82B6E08D300D409FF /* CustomMKAnnotation.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		187E41772B6D689100D409FF /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				187E41882B6D6A5500D409FF /* MapViewPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		187E41782B6D689700D409FF /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				187E41862B6D6A4B00D409FF /* MapViewInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		187E41792B6D689C00D409FF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				187E41682B6D648A00D409FF /* MapViewController.swift */,
+				187E41692B6D648A00D409FF /* MapViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		187E417A2B6D68A100D409FF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				187E41842B6D6A3B00D409FF /* MapViewProtocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		187E417B2B6D68AE00D409FF /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				187E41972B6D939000D409FF /* Extensions */,
+				187E41922B6D7D3A00D409FF /* CustomCell */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		187E41922B6D7D3A00D409FF /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				187E41932B6D7D4F00D409FF /* CustomTableViewCell.swift */,
+				187E41942B6D7D4F00D409FF /* CustomTableViewCell.xib */,
+			);
+			path = CustomCell;
+			sourceTree = "<group>";
+		};
+		187E41972B6D939000D409FF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				187E41982B6D939C00D409FF /* ViewExtension.swift */,
+				187E419E2B6DB7B300D409FF /* StringExtension.swift */,
+				187E41A02B6DB7D000D409FF /* DateExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +430,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				18B6451B2B6E150400F57F3D /* ExplanationOfProject in Resources */,
 				187E41442B6D644200D409FF /* LaunchScreen.storyboard in Resources */,
 				187E41412B6D644200D409FF /* Assets.xcassets in Resources */,
+				187E41962B6D7D4F00D409FF /* CustomTableViewCell.xib in Resources */,
 				187E413F2B6D644200D409FF /* Main.storyboard in Resources */,
+				187E41912B6D770900D409FF /* FoodTruckViewController.xib in Resources */,
+				187E416B2B6D648A00D409FF /* MapViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,9 +461,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187E413C2B6D644200D409FF /* ViewController.swift in Sources */,
+				187E41892B6D6A5500D409FF /* MapViewPresenter.swift in Sources */,
+				187E41822B6D6A2700D409FF /* MainViewRouter.swift in Sources */,
+				187E413C2B6D644200D409FF /* MainViewController.swift in Sources */,
+				187E41852B6D6A3B00D409FF /* MapViewProtocols.swift in Sources */,
+				187E41A32B6DF97900D409FF /* FoodTruckError.swift in Sources */,
+				187E418B2B6D6A5F00D409FF /* MapViewRouter.swift in Sources */,
 				187E41382B6D644200D409FF /* AppDelegate.swift in Sources */,
+				187E41992B6D939C00D409FF /* ViewExtension.swift in Sources */,
+				187E41952B6D7D4F00D409FF /* CustomTableViewCell.swift in Sources */,
+				187E419F2B6DB7B300D409FF /* StringExtension.swift in Sources */,
+				187E417F2B6D6A1900D409FF /* MainViewPresenter.swift in Sources */,
+				187E41872B6D6A4B00D409FF /* MapViewInteractor.swift in Sources */,
+				187E41902B6D770900D409FF /* FoodTruckViewController.swift in Sources */,
 				187E413A2B6D644200D409FF /* SceneDelegate.swift in Sources */,
+				187E41A12B6DB7D000D409FF /* DateExtension.swift in Sources */,
+				187E417D2B6D6A0F00D409FF /* MainViewInteractor.swift in Sources */,
+				187E41742B6D687600D409FF /* MainViewProtocols.swift in Sources */,
+				187E41A92B6E08D300D409FF /* CustomMKAnnotation.swift in Sources */,
+				187E418D2B6D705000D409FF /* FoodTruckModel.swift in Sources */,
+				187E416A2B6D648A00D409FF /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +488,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				187E414F2B6D644200D409FF /* RedFinTestTests.swift in Sources */,
+				187E414F2B6D644200D409FF /* MainInteractorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "F9F661ED-DC83-4E26-A3D6-49168C1A14FF"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BC73E425-A287-4728-82D7-BD91FCDF11BE"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RedFinTest/MainViewController/Interactor/MainViewInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "110"
+            endingLineNumber = "110"
+            landmarkName = "filterFoodTrucks(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BC73E425-A287-4728-82D7-BD91FCDF11BE - a82efb79d217655f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RedFinTest.MainViewInteractor.filterFoodTrucks(Swift.Array&lt;RedFinTest.FoodTruckModel&gt;) -&gt; Swift.Array&lt;RedFinTest.FoodTruckModel&gt;"
+                  moduleName = "RedFinTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Apple/Desktop/RedFinTest/RedFinTest/MainViewController/Interactor/MainViewInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "840">
+               </Location>
+               <Location
+                  uuid = "BC73E425-A287-4728-82D7-BD91FCDF11BE - 7df2a84d7fc1d71b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (RedFinTest.FoodTruckModel) -&gt; Swift.Bool in RedFinTest.MainViewInteractor.filterFoodTrucks(Swift.Array&lt;RedFinTest.FoodTruckModel&gt;) -&gt; Swift.Array&lt;RedFinTest.FoodTruckModel&gt;"
+                  moduleName = "RedFinTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Apple/Desktop/RedFinTest/RedFinTest/MainViewController/Interactor/MainViewInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "420">
+               </Location>
+               <Location
+                  uuid = "BC73E425-A287-4728-82D7-BD91FCDF11BE - a82efb79d217655f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RedFinTest.MainViewInteractor.filterFoodTrucks(Swift.Array&lt;RedFinTest.FoodTruckModel&gt;) -&gt; Swift.Array&lt;RedFinTest.FoodTruckModel&gt;"
+                  moduleName = "RedFinTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Apple/Desktop/RedFinTest/RedFinTest/MainViewController/Interactor/MainViewInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "1224">
+               </Location>
+               <Location
+                  uuid = "BC73E425-A287-4728-82D7-BD91FCDF11BE - 5d269c59528a811a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (RedFinTest.FoodTruckModel) -&gt; Swift.Bool in RedFinTest.MainViewInteractor.filterFoodTrucks(Swift.Array&lt;RedFinTest.FoodTruckModel&gt;) -&gt; Swift.Array&lt;RedFinTest.FoodTruckModel&gt;"
+                  moduleName = "RedFinTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Apple/Desktop/RedFinTest/RedFinTest/MainViewController/Interactor/MainViewInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "BC73E425-A287-4728-82D7-BD91FCDF11BE - 5d269c59528a811a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 (RedFinTest.FoodTruckModel) -&gt; Swift.Bool in RedFinTest.MainViewInteractor.filterFoodTrucks(Swift.Array&lt;RedFinTest.FoodTruckModel&gt;) -&gt; Swift.Array&lt;RedFinTest.FoodTruckModel&gt;"
+                  moduleName = "RedFinTest"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Apple/Desktop/RedFinTest/RedFinTest/MainViewController/Interactor/MainViewInteractor.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "60">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6909F6B1-E9E4-4F5E-9D37-A241FDF24C6B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RedFinTest/MapView/Interactor/MapViewInteractor.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "retrieveNearFoodTrucks()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

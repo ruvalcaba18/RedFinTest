@@ -51,7 +51,6 @@ final class MainInteractorTests: XCTestCase {
     }
     
     func test_RetreieveNearFoodTrucks_withCompletion_Fail() {
-        
         interactor.testRetreieveNearFoodTrucks(withURL: urlToTestAndFail) { result in
             switch result{
             case .success( let model):
